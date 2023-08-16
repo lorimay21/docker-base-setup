@@ -9,4 +9,4 @@ Easily setup Docker environments based on your system requirements
 - CakePHP v3: https://github.com/lorimay21/docker-base-setup/tree/cakephp-3
 
 2. Follow the instructions provided on each of the framework's ENV setup manual
-3. You may now start developing your running Docker project
+3. You may now start developing on your running Docker env project
