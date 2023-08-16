@@ -1,6 +1,10 @@
 # Docker configuration for Laravel
 Docker environment base setup for Laravel framework
 
+# Supported versions
+- Laravel 9.x
+- Laravel 10.x
+
 # Setup Manual
 ### 1. Download Zip and extract the files
 
