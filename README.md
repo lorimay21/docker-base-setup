@@ -68,7 +68,7 @@ Notes: For MacOS Apple silicon, add the `platform` for Mysql, PHPmyadmin, and Ma
 **docker-compose.override.yml**
 ```
 mysql:
-  platform: linux/arm64/v8                              -----------> Add for Mac Apple Silicon
+  platform: linux/arm64/v8                   -----------> Add for Mac Apple Silicon
   image: mysql:8.0
   volumes:
     - ./docker/mysql/my.cnf:/etc/mysql/my.cnf
@@ -85,7 +85,7 @@ mysql:
   networks:
     - network
 phpmyadmin:
-  platform: linux/amd64                                 -----------> Add for Mac Apple Silicon
+  platform: linux/amd64                      -----------> Add for Mac Apple Silicon
   image: phpmyadmin/phpmyadmin
   environment:
     - PMA_ARBITRARY=1
@@ -99,7 +99,7 @@ phpmyadmin:
   networks:
     - network
 mail:
-  platform: linux/amd64                                 -----------> Add for Mac Apple Silicon
+  platform: linux/amd64                      -----------> Add for Mac Apple Silicon
   image: mailhog/mailhog
   ports:
     - ${MAILHOG_PORT}:8025
