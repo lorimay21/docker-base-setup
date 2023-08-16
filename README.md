@@ -2,8 +2,18 @@
 Docker environment base setup for Laravel framework
 
 # Supported versions
+- Laravel 7.x
+- Laravel 8.x
 - Laravel 9.x
 - Laravel 10.x
+
+# Recommendation
+Before you start setting-up Docker env using this guide, here is a recommended (but not required) Docker setup for Laravel:
+https://laravel.com/docs/10.x#laravel-and-docker
+
+This out-of-the-box Laravel x Docker, helps you build a Laravel project with Laravel Sail within a Docker env.
+
+But if you wish to continue with this setup, proceed to follow the **Setup Manual**.
 
 # Setup Manual
 ### 1. Download Zip and extract the files
